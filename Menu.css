@@ -1,0 +1,20 @@
+body{
+    background-color: #98bdff;
+}
+.Menu{
+    background-color: #f3797e;
+    width: 100%;
+    border: 2px #7978e9;
+    overflow: auto;
+}
+.Menu a{
+    float: left;
+    width: 8.4%;
+    text-align: center;
+    padding: 10px;
+    color: white;
+    font-size: 35px;
+}
+.Menu a:hover{
+    background-color: #4b49ac;
+}

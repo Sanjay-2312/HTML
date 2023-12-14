@@ -1,0 +1,55 @@
+body {
+    background-color: antiquewhite;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.Form {
+    color: white;
+    background-color: #7978e9;
+    height: 60vh;
+    width: 40vh;
+    text-align: center;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.Name {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    align-items: center;
+}
+
+.Gender {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    align-items: center;
+}
+
+.Date {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.action button[type="submit"] {
+    padding: 10px;
+    width: 120px;
+    border-radius: 20px;
+    background-color: #f3797e;
+    border: none;
+    color: white;
+}
+
+.action button[type="submit"]:hover {
+    background-color: bisque;
+}
